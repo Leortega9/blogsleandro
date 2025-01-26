@@ -3,23 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Historia</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Sobre El Pangui</title>
 </head>
 <body>
-    <header>
-        <img src="../img/logo2.png" alt="PANGUI" width=" 10%">
-        <span>
-            Turismo en El Pangui
-        </span>
-        <nav> 
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../secundario/sobrepangui.html"> Sobre El Pangui</a></li>
-                <li><a href="../secundario/noticias.html">Noticias</a></li>
-                <li><a href="../secundario/contactos.html">Contactos</a></li>
-            </ul>
-        </nav>
-       </header>
+    <header>  
+        <a href="../index.html" class="logo">
+            <img src="../img/logo2.png" alt="logo pangui"  >
+            <h1> El Pangui Turismo</h1>
+        </a>
+      
+        <div>
+            <nav class=" navbar"> 
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="secundario/sobrepangui.html"> Sobre El Pangui</a></li>
+                    <li><a href="secundario/noticias.html">Noticias</a></li>
+                    <li><a href="secundario/contactos.html">Contactos</a></li>
+                </ul>
+               </nav>
+
+        </div>
+
+  </header>
 
        <main>
         <h1> Reseña Histórica del Cantón El Pangui</h1>
@@ -33,47 +40,95 @@
         <img src="../img/panguitodo.jpg" alt="El Pangui" width=" 50%">
    </main>
     <h2> Tabla  de Información El Pangui</h2>
-      <table border="1"> 
-        <tr> 
-            <td> Aspecto</td>
-            <td> información</td>
-        </tr>
+     
+    <table border="1"> 
+        <thead class="cabeza"> 
+            <tr> 
+                <td> Aspecto</td>
+                <td> información</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> 
+                <td> Ubicación</td>
+                <td> Provincia de Zamora Chinchipe</td>  
+            </tr>
+    
+            <tr> 
+                <td> Fecha de creación</td>
+                <td> 14 de febrero de 1991</td>    
+            </tr>
+    
+            <tr> 
+                <td> Extención</td>
+                <td> 1.097km² </td>    
+            </tr>
+    
+            <tr> 
+                <td> Economía </td> 
+                <td> Minería, agricultura y ganadería </td>    
+            </tr>
+    
+            <tr> 
+                <td> Población Estimada</td> 
+                <td> 10,000 habitantes (cifras aproximadas)</td>    
+            </tr>
+    
+            <tr> 
+                <td> Clima </td> 
+                <td> Tropical húmedo </td>    
+            </tr>
+    
+            <tr> 
+                <td> Atractivos turísticos</td>
+                <td> Reserva Natural Los Hachales, ríos y cascadas naturales </td>    
+            </tr>
 
-        <tr> 
-            <td> Ubicación</td>
-            <td> Provincia de Zamora Chinchipe</td>  
-        </tr>
-
-        <tr> 
-            <td> Fecha de creación</td>
-            <td> 14 de febrero de 1991</td>    
-        </tr>
-
-        <tr> 
-            <td> Extención</td>
-            <td> 1.097km² </td>    
-        </tr>
-
-        <tr> 
-            <td> Economía </td> 
-            <td> Minería, agricultura y ganadería </td>    
-        </tr>
-
-        <tr> 
-            <td> Población Estimada</td> 
-            <td> 10,000 habitantes (cifras aproximadas)</td>    
-        </tr>
-
-        <tr> 
-            <td> Clima </td> 
-            <td> Tropical húmedo </td>    
-        </tr>
-
-        <tr> 
-            <td> Atractivos turísticos</td>
-            <td> Reserva Natural Los Hachales, ríos y cascadas naturales </td>    
-        </tr>
-
+        </tbody>
       </table>
+      <br>
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4> ENLACES</h4>
+                    <ul class="viñe">
+                        <li> <a href="#">Nosostros</a></li>
+                        <li> <a href="#">Servicios</a></li>
+                        <li> <a href="#">Politica de privacidad</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="footer-links">
+                    <h4> AYUDA</h4>
+                    <ul class="viñe">
+                        <li> <a href="#">Preguntas</a></li>
+                        <li> <a href="#">Avisos</a></li>
+                        <li> <a href="#">Importancia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4> LEGAL</h4>
+                    <ul class="viñe">
+                        <li> <a href="#">Terminos y Condición</a></li>
+                        <li> <a href="#">Politica de Privacida</a></li>
+                        <li> <a href="#">Avisos legales</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4> SIGUENOS</h4>
+                    <div class="social-link">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer>
 </body>
 </html>
